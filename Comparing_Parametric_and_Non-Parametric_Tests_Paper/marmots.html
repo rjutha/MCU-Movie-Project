@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: The Giant Marmots of Moscow</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for marmots"><tr><td>marmots</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>
+The Giant Marmots of Moscow
+</h2>
+
+<h3>Description</h3>
+
+<p>This synthetic dataset describes a total of 60 marmots with 14 variables. 
+</p>
+<p>Variables include species (factor), region (factor), pos_x (factor), pox_y (factor).
+</p>
+<p>Age (numeric), long_cm (numeric), wide_cm (numeric), sex (binary), lesions (Count), injured (binary), teeth_condition (factor), weight (numeric).
+</p>
+<p>antibody (numeric), and pollutant (numeric).to predict the pollutant concentration (mg per kg) in the local population without resorting to measuring it directly. (It turns out that measuring this pollutant requires some invasive measures like looking at bone marrow). 
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+data(marmots)
+</pre>
+
+
+<h3>Format</h3>
+
+<p>A data frame of 160 cases on 7 variables.
+</p>
+<p>Species - Five levels indicating the species of giant marmot.
+</p>
+<p>Region - Five levels indicating regions around Moscow where the subject is captured.
+</p>
+<p>Age - Age of marmot in years.
+</p>
+<p>Pos_x - Longitude of capture recorded in (0,1000).
+</p>
+<p>Pos_x - Latitude of capture recorded in (0,1000).
+</p>
+<p>Long_cm - Length from nose to tail in cm.
+</p>
+<p>Wide_cm - Width between front outstretched paws.
+</p>
+<p>Sex - Gender (M or F).
+</p>
+<p>Lesions - Number of skin lesions like cuts or open sores found when captured.
+</p>
+<p>Injured - If subsantial injury exist on capture as 0 or 1.
+</p>
+<p>Teetch_Condition - Condition of teeth observed upon capture (Very Bad, Bad, Average, or Good).
+</p>
+<p>Weight - Mass of marmot in 100g.
+</p>
+<p>Antibody - Count of CD4 antibodies in blood per ml.
+</p>
+<p>Pollutant - Amount of selenium found in bone marrow in mg/kg.
+</p>
+
+
+<h3>Details</h3>
+
+<p>The giant marmots of Moscow have a pollution problem. Find a model to predict the pollutant concentration (mg per kg) in the local population without resorting to measuring it directly. (It turns out that measuring this pollutant requires some invasive measures like looking at bone marrow).  
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+## Observe the first 6 rows of the dataset
+head(marmots)
+
+## Summary of each variable in the dataset
+summary(marmots)
+
+## Histogram of the variable age in the dataset
+hist(marmots$age)
+</pre>
+
+
+</body></html>
