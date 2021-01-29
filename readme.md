@@ -1,4 +1,4 @@
-# MCU Movies Analysis - Personal Project
+# MCU Movies Data Exploration - Personal Project
 Rahim Jutha / rjutha@sfu.ca
 
 Please use the html file in this directory to view the project
