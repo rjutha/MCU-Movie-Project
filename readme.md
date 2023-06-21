@@ -1,7 +1,7 @@
 # MCU Movies Data Exploration - Personal Project
 Rahim Jutha / rjutha@sfu.ca
 
-Please use the html file in this directory to view the project
+Please use the [Github Pages Website](https://rjutha.github.io/MCU-Movie-Data-Exploration/) to view the project
 
 ## Description 
 This is a small and simple exploration of data I scraped of the wikipedia page https://en.wikipedia.org/wiki/List_of_Marvel_Cinematic_Universe_films.
